@@ -44,7 +44,7 @@ class Solution:
         # for punct in punctuations:
         #     paragraph = paragraph.replace(punct," ")
         para_lower = re.sub(r"[!?',;.]+",' ',paragraph)
-        para_words = para_lower.split(" ")
+        para_words = para_lower.split()
         
         counter_data = Counter(para_words).most_common()
         for word,_ in counter_data:
