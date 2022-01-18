@@ -16,6 +16,7 @@ class MedianFinder:
         else:
             return float(self.large[0])
 
+
 obj = MedianFinder()
 obj.addNum(2)
 obj.addNum(1)

@@ -20,6 +20,7 @@ class FreqStack(object):
             self.maxfreq -= 1
 
         return x
+
     
 # Your FreqStack object will be instantiated and called as such:
 freqStack = FreqStack();
