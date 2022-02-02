@@ -14,8 +14,8 @@ class Solution:
                     
         ans = float('-inf')
         # sum of k matrix:
-        for i in range(N):
-            for j in range(N):
+        for i in range(K,N):
+            for j in range(K, N):
                 local = mat[i][j]
                 if i-K >=0:
                     local -= mat[i-K][j]
